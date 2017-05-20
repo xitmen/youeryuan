@@ -69,3 +69,169 @@ a{color:rgba(100,100,100,1);}
 .foot .codeImg img{display:block; margin:0 auto 30px auto}
 .copyright{position: absolute; left:20px; bottom:10px; color:#fff;}
 .copyright a.old_web{width:101px; height:31px; background-image:url("../img/old_web.png"); vertical-align:middle; margin-right:20px;}
+
+.min_banner_con{
+    width:987px; height:404px; margin:0 auto; padding-top:30px; position:relative;
+}
+.min_nav li{
+    display:block; height:107px; width:247px; background-repeat:no-repeat;
+    position:relative; z-index:4;
+}
+.min_nav li a{display:block; width:100%; height:100%;}
+.min_nav li.min_nav_01{background-image:url("../img/nav_01.png"); }
+.min_nav li.min_nav_02{background-image:url("../img/nav_02.png"); }
+.min_nav li.min_nav_03{background-image:url("../img/nav_03.png"); }
+.min_banner{width:763px; height:434px; position:absolute; right:0; top:0;}
+.min_banner div.min_banner_mark{position:absolute; width:763px; height:434px; z-index:3; background-image:url("../img/min_banner_mark.png"); background-repeat:no-repeat}
+.min_banner div.min_banner_img{
+    width:763px; height:434px; overflow:hidden; position:absolute; top:0; left:0;
+}
+.min_banner div.min_banner_img img{display:block; position:absolute; top:0; left:0; bottom:0; right:0; width:100%; height:434px;}
+.page_info_con{margin:20px auto;}
+.page_info_con div.page_info_nav li{
+    display:inline-block; width:129px; height:41px; background-image:url("../img/min_nav.png"); background-repeat:no-repeat;
+    background-position:center; margin-right:5px; font-size:14px; text-align:center; line-height:41px;
+}
+.page_info_con div.page_info_nav li a{display:block; width:100%; height:100%; color:rgba(93,67,0,1)}
+.page_info_con div.page_info_nav li:hover,.page_info_con div.page_info_nav li.cur{
+    background-image:url("../img/min_nav_hover.png");
+}
+.page_info_content{
+    min-height:300px; background-color:#fff; padding:20px 10px;
+    background-image:url("../img/con_bg.jpg");
+}
+
+.style_one .block_style dl{
+    width:48%; margin-left:20px;
+}
+
+.style_one .title{
+    background-image:url("../img/title_bg.png"); background-repeat:repeat-x; background-position:left center;
+}
+.style_one .block_style{
+    margin-bottom:10px;
+}
+.style_one .block_style dd.info{
+    padding:20px 0; line-height:40px; font-size:14px;
+}
+.style_one .block_style dd.link{
+    background-image:url("../img/link.png");
+    background-repeat:no-repeat; width:407px; height:30px;
+}
+.style_one .block_style dd.link a{display:block; width:100%; height:100%;}
+.style_one .block_style .img_mark_con{
+    width:419px; height:294px; position:relative;
+}
+.style_one .block_style .img_mark_con .img_mark{
+    position:absolute; top:0; left:0; width:419px; height:294px; z-index:3;
+    background-image:url("../img/page_mark.png");
+}
+.style_one .block_style .img_mark_con .img_mark_list{
+    position:absolute; top:0; left:0; width:419px; height:294px; z-index:1;
+}
+.style_one .block_style .img_mark_con .img_mark_list img{
+    display:block; width:100%; height:100%;
+}
+
+.teacher_list{overflow:hidden; padding-top:10px;}
+
+.teacher_list dl{
+    float:left; width:226px; height:177px; position:relative;
+    margin:10px 45px;
+}
+.teacher_list dl dd img{
+    display:block; width:100%; height:100%;
+}
+.teacher_list dl dd.info{
+    text-align:center; color:rgba(72,56,25,1);
+}
+.teacher_list dl dd.teacher_name{text-align:center; margin-top:10px;}
+
+.teacher_list dl.one dt.teacher_mark{
+    width:226px; height:147px;
+    background-image:url("../img/img_style_01.png"); background-repeat:no-repeat;
+    position:absolute; z-index:3;
+}
+.teacher_list dl.one dd.teacher_img{
+    width:226px; height:147px;
+}
+
+.teacher_list dl.two dt.teacher_mark{
+    width:225px; height:147px;
+    background-image:url("../img/img_style_02.png"); background-repeat:no-repeat;
+    position:absolute; z-index:3;
+}
+.teacher_list dl.two dd.teacher_img{
+    width:225px; height:147px;
+}
+
+.teacher_list dl.three dt.teacher_mark{
+    width:226px; height:147px;
+    background-image:url("../img/img_style_03.png"); background-repeat:no-repeat;
+    position:absolute; z-index:3;
+}
+.teacher_list dl.three dd.teacher_img{
+    width:226px; height:147px;
+}
+.page_list{
+    text-align:center; margin:10px 0;
+}
+.page_list a{display:inline-block; width:30px; height:30px; line-height:30px; vertical-align:middle }
+.page_list a.page_list_left{background-image:url("../img/top_info_left_bt.png")}
+.page_list a.page_list_right{background-image:url("../img/top_info_right_bt.png")}
+
+.page_new_item{margin:30px 0;}
+.page_new_item dl{
+    width:55%; margin-left:15px;
+}
+.page_new_item div.img{
+    width:392px; height:231px; position:relative;
+}
+.page_new_item dl dt.title{
+    color:#54ac43; background-image:url("../img/title_bg.png"); background-repeat:repeat-x;
+    background-position:left bottom; line-height:40px; font-size:14px;
+}
+.page_new_item dl dd.info{
+    padding:10px 0; color:#5f4618; line-height:30px; font-size:14px;
+}
+.page_new_item dl dd.address{
+    border-radius:5px; background-color:#f5ece2; color:#5f4618;
+    padding:10px;
+}
+
+.page_new_item div.img .img_mark{
+    position:absolute; top:0; left:0; width:392px; height:231px; z-index:3;
+    background-image:url("../img/huodong_mark.png");
+}
+.page_new_item div.img  .img_mark_list{
+    position:absolute; top:0; left:0; width:392px; height:231px; z-index:1;
+}
+.page_new_item div.img  .img_mark_list img{
+    display:block; width:100%; height:100%;
+}
+.new_list_item{
+    background-image:url("../img/page_img.jpg"); background-position:right top;
+    background-repeat:no-repeat;
+
+}
+.new_list_item ul{
+    width:410px; margin:10px; margin-left:30px; min-height:521px;
+}
+.new_list_item li{
+    line-height:30px; background-image:url("../img/title_bg.png");
+    background-repeat:repeat-x; background-position:left bottom;
+    margin:5px 0;
+}
+.new_list_item li a{
+    color:#5f4618;
+}
+
+.class_list .class_item{
+    background-image:url("../img/title_bg.png"); background-repeat:repeat-x; background-position:left bottom;
+    padding-top:10px; padding-bottom:10px;
+}
+.class_list .class_item .title{
+    color:#8bc947; font-size:14px;
+}
+.class_list .class_item ul{background-color:#eeebda; border-radius:3px; padding:10px; margin:10px 0; overflow:hidden}
+.class_list .class_item ul li{display:inline-block; margin:0 34px;}
